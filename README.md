@@ -9,4 +9,6 @@ Step1_get_TF_PSx_PSy_all_files.m: takes the .txt files containing trap position 
 
 OTC_nosqwv.m: takes the output TF and PS from the previous script and performs an optimization algorithm to determine the relevant viscoelastic parameters based on the model from Mizuno et al. 2008. Then uses this information to plot storage and loss modulus, among other things
 
+TF, PS data for OTC: some sample data compiled using Step1_get_TF_PSx_PSy_all_files.m. This data can be called by OTC_nosqwv.m to familiarize oneself with doing Optical Trap Calibration. 
+
 Additional Scripts: the main scripts earlier often call separate functions, particularly when calculating TF, PS, and performing least squares optimization. Such scripts can be found here, among others.
