@@ -1,5 +1,6 @@
 # C-Trap-Viscoelastic-Measurements
 operating, passing commands to, and analyzing oscillation experiments with the Lumicks C-Trap
+
 Oscillating C-trap.py: uses the bluelake python environment to pass commands to the C-trap mirror which controls bead movement
 opening hfivefiles.m: after data has been exported from bluelake, takes the h5 files and parses data into .txt files for future analysis
 Step1_get_TF_PSx_PSy_all_files.m: takes the .txt files containing trap position and PSD voltage to calculate TF, PSx, and PSy
