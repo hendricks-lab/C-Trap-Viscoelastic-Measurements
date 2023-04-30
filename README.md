@@ -12,3 +12,5 @@ OTC_nosqwv.m: takes the output TF and PS from the previous script and performs a
 TF, PS data for OTC: some sample data compiled using Step1_get_TF_PSx_PSy_all_files.m. This data can be called by OTC_nosqwv.m to familiarize oneself with doing Optical Trap Calibration. 
 
 Additional Scripts: the main scripts earlier often call separate functions, particularly when calculating TF, PS, and performing least squares optimization. Such scripts can be found here, among others.
+
+two trapped beads with oscillation.mp4: video showing what the experiment looks like under the brighfield objective.
